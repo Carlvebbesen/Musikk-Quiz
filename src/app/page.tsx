@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main>
       <Snowfall count={75} /> {/* Render the Snowfall component */}
-      <div className="relative z-10 p-10">
+      <div className="relative z-10 p-5">
         <MainHeader title="🎵Carl og Julie's Musikkquiz🎵" />
         <div className="grid grid-cols-6 gap-10 h-full w-full">
           <Row>

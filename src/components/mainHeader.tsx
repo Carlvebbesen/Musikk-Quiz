@@ -6,8 +6,8 @@ interface MainHeaderProps {
 
 const MainHeader: React.FC<MainHeaderProps> = ({ title }) => {
   return (
-    <header className="text-5xl flex items-center justify-center mb-10">
-      <h1 className="font-bold">{title}</h1>
+    <header className="flex items-center justify-center mb-5">
+      <h1 className="font-bold text-4xl">{title}</h1>
     </header>
   );
 };
