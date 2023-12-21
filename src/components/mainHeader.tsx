@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 interface MainHeaderProps {
   title: string;
@@ -6,12 +6,10 @@ interface MainHeaderProps {
 
 const MainHeader: React.FC<MainHeaderProps> = ({ title }) => {
   return (
-    <header className="main-header">
+    <header className="text-5xl flex items-center justify-center mb-10">
       <h1>{title}</h1>
     </header>
   );
 };
 
 export default MainHeader;
-
-  

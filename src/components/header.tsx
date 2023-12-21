@@ -1,5 +1,9 @@
 const Header = ({ type }: { type: string }) => {
-  return <h2 className="text-center">{type}</h2>;
+  return (
+    <div className="flex items-center justify-center mb-5">
+      <h2 className=" text-4xl">{type}</h2>
+    </div>
+  );
 };
 
 export default Header;
