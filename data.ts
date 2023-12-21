@@ -111,7 +111,7 @@ export const data: MusicGameType = {
     },
     {
       songTitle: "Dragostea din tei",
-      word: "Rumensk / moldovske",
+      word: "Rumensk",
     },
     {
       songTitle: "Narkotik kal",
