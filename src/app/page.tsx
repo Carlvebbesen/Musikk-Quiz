@@ -1,5 +1,5 @@
 import Header from "../components/header";
-import MusikkCell from "../components/musikkCell";
+import MusicCell from "../components/musicCell";
 import MainHeader from "@/components/mainHeader";
 import Row from "../components/row";
 import { SongDataType, data } from "../../data";
@@ -9,7 +9,7 @@ import Snowfall from "@/components/snowflake";
 export default function Home() {
   const getCells = (cells: SongDataType[], header: string) => {
     const songCells = cells.map((song) => {
-      return <MusikkCell key={song.songTitle} content={song} />;
+      return <MusicCell key={song.songTitle} content={song} />;
     });
     return [<Header key={header} type={header} />, ...songCells];
   };

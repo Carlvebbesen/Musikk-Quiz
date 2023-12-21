@@ -7,7 +7,7 @@ interface MusikkCellProps {
   content: SongDataType;
 }
 
-const MusikkCell: React.FC<MusikkCellProps> = ({ content }) => {
+const MusicCell: React.FC<MusikkCellProps> = ({ content }) => {
   const [isFlipped, setIsFlipped] = useState<boolean>(false);
 
   const handleBoxClick = () => {
@@ -31,7 +31,7 @@ const MusikkCell: React.FC<MusikkCellProps> = ({ content }) => {
         )}
 
         <motion.div
-          className="p-5 bg-red-600 h-full shadow-2xl flex justify-center items-center"
+          className="p-5 bg-red-600 h-full flex justify-center items-center"
           animate={{ rotateY: isFlipped ? -180 : 0 }} // Counteract the rotation of the box
         >
           {/* Render the text only when isFlipped is true */}
@@ -44,4 +44,4 @@ const MusikkCell: React.FC<MusikkCellProps> = ({ content }) => {
   );
 };
 
-export default MusikkCell;
+export default MusicCell;
