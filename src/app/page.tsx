@@ -18,7 +18,7 @@ export default function Home() {
       <Snowfall count={75} /> {/* Render the Snowfall component */}
       <div className="relative z-10 p-5">
         <MainHeader title="🎵Carl og Julie's Musikkquiz🎵" />
-        <div className="grid grid-cols-6 gap-10 h-full w-full">
+        <div className="grid grid-cols-6 gap-5 h-full w-full">
           <Row>
             <Header type="Poeng" />
             <ColHeader title="100 ⛸️" />

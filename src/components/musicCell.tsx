@@ -15,7 +15,7 @@ const MusicCell: React.FC<MusikkCellProps> = ({ content }) => {
   };
 
   return (
-    <div className="mb-10 h-1/6 min-h-10">
+    <div className="mb-5 h-24">
       <motion.div
         className="box h-full relative"
         onClick={handleBoxClick}
