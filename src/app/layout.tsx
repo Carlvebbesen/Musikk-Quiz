@@ -17,7 +17,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="w-full h-full">
-      <Script src="https://sdk.scdn.co/spotify-player.js" />
       <body className={inter.className}>{children}</body>
     </html>
   );
