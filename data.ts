@@ -31,7 +31,7 @@ export const data: MusicGameType = {
     },
     {
       songTitle: "You want it darker",
-      word: "Lillehammer",
+      word: "Tjuvholmen",
     },
   ],
   drugs: [
